@@ -4,16 +4,6 @@
   <head>
 
     {{> head}}
-    {{#is "index"}}
-    <meta name="description" content="{{@blog.description}}"/>
-    <meta property="og:title" content="{{@blog.title}}"/>
-    <meta itemprop="name" content="{{@blog.title}}"/>
-    {{#if @blog.cover}}
-    <meta property="og:image" content="{{@blog.url}}{{@blog.cover}}"/>
-    <link rel="image_src" href="{{@blog.url}}{{@blog.cover}}"/>
-    <meta itemprop="image" content="{{@blog.url}}{{@blog.cover}}"/>
-    {{/if}}
-    {{/is}}
     {{ghost_head}}
   </head>
 
