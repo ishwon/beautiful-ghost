@@ -23,6 +23,10 @@
         {{/next_post}}
       </ul>
       {{/post}}
+      {{> facebook-comment}}
+      <div class="fb-comments" data-href="https://hacklog.mu{{url}}" data-numposts="10" width="100%"></div>
+      
+
     </div>
   </div>
 </div>
